@@ -1,0 +1,47 @@
+.edit{
+    width: 100%;
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+    outline: 1px solid #b5b5b5;
+    justify-content: space-between;
+    align-items: center;
+}
+.edit textarea{
+    resize: none;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+.textarea-container{
+    width: 60%;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.edit-close{
+    width: 30%;    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+.edit-close button{
+    width: 70%;
+    padding: 5px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.edit-close button:hover{
+    background-color: #0d8fe0;
+}
+.edit-close button:disabled{
+    background-color: #72b2da;
+    cursor: not-allowed;
+}
